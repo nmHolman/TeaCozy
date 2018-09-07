@@ -1,0 +1,98 @@
+/* GENERAL STYLES */
+body {
+  margin: 0px;
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* HEADER STYLE */
+header {
+  position: fixed;
+  top: 0;
+  height: 69px;
+  width: 100%;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  z-index: 1;
+  align-items: center;
+  padding: 0px 0px;
+}
+
+header img {
+  height: 50px;
+  padding-left: 10px;
+}
+
+header nav {
+  flex-grow: 1;
+  text-align: right;
+}
+
+nav span {
+  padding-right: 10px;
+}
+
+a {
+  color: seashell;
+}
+
+section {
+  border: 1px solid red;
+  margin: 0px auto;
+  padding-top: 69px;
+}
+
+/* MAIN STLES */
+main {
+  width: 1200px;
+  margin: 0px auto;
+}
+
+/* MISSION SECTION */
+#mission {
+  background-image: url(../img/img-mission-background.jpg);
+  height: 700px;
+  align-items: center;
+}
+
+.missionContent {
+  width: 1200px;
+  background-color: black;
+}
+
+/* Featured Tea Section */
+#featured {
+
+  width: 1000px;
+}
+
+.tea-types {
+  justify-content: center;
+}
+
+.tea span{
+  display: block;
+  font-weight: bold;
+}
+
+.tea img {
+  display: block;
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+}
+
+/* FOOTER */
+footer {
+  border: 1px solid green;
+}
