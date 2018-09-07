@@ -47,21 +47,19 @@ a {
 }
 
 section {
-  border: 1px solid red;
   margin: 0px auto;
-  padding-top: 69px;
+  height: 700px;
 }
 
 /* MAIN STLES */
 main {
   width: 1200px;
-  margin: 0px auto;
+  margin: 69px auto 0px auto;
 }
 
 /* MISSION SECTION */
 #mission {
   background-image: url(../img/img-mission-background.jpg);
-  height: 700px;
   align-items: center;
 }
 
@@ -70,10 +68,10 @@ main {
   background-color: black;
 }
 
-/* Featured Tea Section */
+/* FEATURED TEAS SECTION */
 #featured {
-
   width: 1000px;
+  padding-top: 70px;
 }
 
 .tea-types {
@@ -92,7 +90,32 @@ main {
   margin: 10px;
 }
 
+/* LOCATIONS SECTION */
+#locations {
+  background-image: url(../img/img-locations-background.jpg);
+  height: 500px;
+  padding-top: 70px;
+}
+
+#locations h2 {
+  margin-bottom: 15px;
+}
+
+.location {
+  display: block;
+  width: 300px;
+  margin: 0px 20px 0px 20px;
+  background-color: black;
+  opacity: 1;
+}
+
+/* CONTACT SECTION */
+#contact {
+  height: 200px;
+}
+
 /* FOOTER */
 footer {
-  border: 1px solid green;
+  text-align: left;
+  padding-left: 20px;
 }
